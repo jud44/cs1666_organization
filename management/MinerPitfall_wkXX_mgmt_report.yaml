@@ -3,32 +3,48 @@ manager_pitt_username: ""
 week: 1
 # Specific goals:
 goals:
-  - desc: ""
-    prs: []
-    status: ""
-  - desc: ""
-    prs: []
-    status: ""
+  - desc: "Start new game, build starting state"
+    prs: [18]
+    status: "Built a new starting state, but need to fix switching to loading state"
+  - desc: "Player health: add new health component to the ECS and attach this to the player"
+    prs: [17]
+    status: "Added struct to player"
+  - desc: "Display current player's health"
+    prs: [17]
+    status: "Displays player health bar, but does not update animation"
+  - desc: "Collision detection on enemy"
+    prs: [15]
+    status: "Detects and outputs when the player comes into contact with the enemy"
+  - desc: "Apply damage on the player after collision with enemy"
+    prs: [12]
+    status: "Placeholder enemy displays as a red box and decreases health struct in ecs "
+  - desc: "Room data structure: backend update"
+    prs: [8]
+    status: "Takes in a text file and creates the map corresponding with said text file"
+  - desc: "Exit door to end game: display end state"
+    prs: [13]
+    status: "Player can end the game by coming into contact with the door and pressing 'W'"
+
 # Team member evalution
 team_members:
   - pitt_username: "lao42" #landin
     score: 0 #int [-2, -1, 0, 1, 2]
-    desc: ""
+    desc: "finished assigned part"
   - pitt_username: "yil201" #yinuo
     score: 0 
-    desc: ""
+    desc: "finished assigned part"
   - pitt_username: "mat271" #matt
     score: 0
-    desc: ""
+    desc: "finished assigned part"
   - pitt_username: "lrm88" #lucas
-    score: 0
-    desc: ""
+    score: 1
+    desc: "finished assigned part and helped with some compilation errors"
   - pitt_username: "jud44" #justin
     score: 0
     desc: ""
   - pitt_username: "nnh6" #nara
     score: 0
-    desc: ""
+    desc: "finished assigned part"
   - pitt_username: "gas101" #grant
     score: 0
-    desc: ""  
+    desc: "finished assigned part"  
