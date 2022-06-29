@@ -29,22 +29,22 @@ goals:
 team_members:
   - pitt_username: "lao42" #landin
     score: 0 #int [-2, -1, 0, 1, 2]
-    desc: "finished assigned part"
+    desc: "added backend to produce a map according to the file"
   - pitt_username: "yil201" #yinuo
     score: 0 
-    desc: "finished assigned part"
+    desc: "added art assets"
   - pitt_username: "mat271" #matt
     score: 0
-    desc: "finished assigned part"
+    desc: "added door and end state when player presses 'W' over the door"
   - pitt_username: "lrm88" #lucas
     score: 1
-    desc: "finished assigned part and helped with some compilation errors"
+    desc: "Added a jump feature and added collision with enemy"
   - pitt_username: "jud44" #justin
     score: 0
-    desc: ""
+    desc: "Added start state and start button"
   - pitt_username: "nnh6" #nara
     score: 0
-    desc: "finished assigned part"
+    desc: "Added health struct to ecs and displays static health bar"
   - pitt_username: "gas101" #grant
     score: 0
-    desc: "finished assigned part"  
+    desc: "Added placeholder enemy"  
